@@ -1,4 +1,4 @@
-# Lynis-Simple-Reporter
+# Simple Reporting Script For Lynis Audit Tool
 
 ## Overview
 Get a straight forward report from running Lynis with suggestions dedicated to harden systems without verbosity. This short script is meant to ease the process of hardening systems by organizing important vulnerabilities in a single text file.
