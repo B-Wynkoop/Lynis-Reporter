@@ -10,16 +10,16 @@ Get a straight forward report from running Lynis with suggestions dedicated to h
 
 ## Lynis audit tool installation
 
-#### Debian
+#### Debian Lynis Install:
 ```bash
 sudo apt update
 sudo apt install lynis
 ```
-#### Fedora
+#### Fedora Lynis Install:
 ```bash
 sudo dnf install lynis
 ```
-#### Arch
+#### Arch Lynis Install:
 ```bash
 sudo pacman -S lynis
 ```
@@ -30,6 +30,7 @@ Run Command (Default File Path (~))
 ```
 After running, a (lynis-review.txt) file will be created and open automatically after the report generates.
 ## Note:
-- This script requires Lynis System Audit.
+- This script requires install of Lynis audit tool.
 - This script requires sudo privileges.
+- The report created updates with each execution, meaning it will update after fixing suggestions/warnings and running again.
 
