@@ -4,10 +4,10 @@
 Get a straight forward report from running Lynis with suggestions dedicated to harden systems without verbosity. This short script is meant to ease the process of hardening systems by organizing important vulnerabilities in a single text file.
 
 ## Features
-- Runs Lynis System Audit Tool
+- Full system audit with Lynis
 - Runs through the report to find "warnings" and "suggestions"
-- Outputs the result to lynis-review.txt
-- No need to delete the file it makes as it will update each time you run a Lynis scan
+- Outputs the results to (lynis-review.txt (~))
+- No need to delete (lynis-review.txt) after as it will update each time you run the Lynis scan
 
 ## Usage
 Lynis audit tool is needed
